@@ -3,93 +3,21 @@
 <head>
     <meta charset="utf-8"/>
     <title>Login</title>
-    <link rel="stylesheet" href="style_login.css"/>
-    <style>
-
-        body {
-            background-image: url("loginpageimg.jpeg");
-            /*background-size: cover;*/
-            background-repeat: no-repeat;
-        }
-
-        .logo {
-            height: 150px;
-            border: 3px solid oldlace;
-            width: 300px;
-            border-radius: 20px;
-            margin-left: 20px;
-            margin-top: 2%;
-        }
-
-        .logoImageStyle {
-            border-radius: inherit;
-            height: 100%;
-            width: 100%;
-        }
-
-        .cl1 {
-            font-family: Verdana, Geneva, Tahoma, sans-serif, arial;
-            font-size: 20px;
-            color: honeydew;
-            border-radius: 25px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            width: 25%;
-            height: 85%;
-            text-align: center;
-            right: 0;
-            padding: 2% 2% 2% 1%;
-            margin-right: 10%;
-            margin-top: -4%;
-            float: right;
-            background-color: rgba(29, 29, 28, 0.575);
-        }
-
-        .box {
-            width: 97%;
-            padding: 7px;
-            opacity: 0.5;
-            font-size: 18px;
-            margin-top: 5px;
-            color: #000000;
-        }
-
-        #submit1 {
-            font-size: 16px;
-            font-weight: bolder;
-            margin-left: 35%;
-            margin-bottom: 10px;
-            text-align: center;
-            color: rgb(0, 0, 0);
-            opacity: 0.8;
-            padding: 6px;
-            height: 35px;
-            width: 100px;
-        }
-
-        .scl1 {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 20px;
-            text-align: left;
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="./../css/LoginPage.css"/>
 </head>
 
 <body>
-    <div>
         <div class="logo"><img src="logo.jpg" class="logoImageStyle"></div>
-        <div class="cl1">
-            <center>
+        <div class="loginbox">
                 <h2>Log in</h2>
                 <hr width="80%">
                 <br>
                 <form class="form" method="post" name="login">
-                    <div class="scl1">
-                        <label>UserName</label><br>
-                        <input class="box" type="text" name="username" placeholder="e.g. _utkarsh.t"><br><br>
+                    <div class="loginboxcontent">
+                        <label>Username</label><br>
+                        <input class="box" type="text" name="username" placeholder="Enter your username"><br><br>
                         <label>Password</label><br>
-                        <input class="box" type="password" name="password"><br><br>
+                        <input class="box" type="password" name="password" placeholder="Enter your password"><br><br>
                         <input type="checkbox" name="chk">
                         <label><small>Remember me?</small></label><br><br>
                         <input type="submit" id="submit1" name="submit" value="Login">
@@ -98,9 +26,7 @@
                         Account</a></small></p>
                     </div>
                 </form>
-            </center>
         </div>
-    </div>
 </body>
 
 </html>

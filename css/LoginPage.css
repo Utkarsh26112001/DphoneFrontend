@@ -1,0 +1,70 @@
+body {
+    background-image: url("./../img/BackgroundVideo.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo {
+    height: 150px;
+    border: 3px solid oldlace;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 2%;
+}
+
+.logoImageStyle {
+    border-radius: inherit;
+    height: 100%;
+    width: 100%;
+}
+
+.loginbox {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, arial;
+    font-size: 20px;
+    color: honeydew;
+    border-radius: 25px;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+    width: 25%;
+    alignment: center;
+    height: 85%;
+    text-align: center;
+    right: 0;
+    padding: 2% 2% 2% 1%;
+    margin-right: 10%;
+    margin-top: -4%;
+    float: right;
+    background-color: rgba(29, 29, 28, 0);
+}
+
+.box {
+    width: 97%;
+    padding: 7px;
+    opacity: 0.9;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+#submit1 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Tahoma,serif;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    padding: 6px;
+    alignment: center;
+    height: 35px;
+    width: 40%;
+}
+.loginboxcontent {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+.label {
+    font-size: medium;
+}
