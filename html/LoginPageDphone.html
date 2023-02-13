@@ -7,18 +7,20 @@
     <style>
 
         body {
-            background-image: url("loginpageimg.jpeg");
-            /*background-size: cover;*/
+            background-image: url("./../img/BackgroundVideo.gif");
+            background-size: cover;
             background-repeat: no-repeat;
         }
 
         .logo {
             height: 150px;
-            border: 3px solid oldlace;
+            /* border: 3px solid oldlace; */
             width: 300px;
             border-radius: 20px;
             margin-left: 20px;
             margin-top: 2%;
+            backdrop-filter: blur(10px);
+
         }
 
         .logoImageStyle {
@@ -42,6 +44,8 @@
             margin-top: -4%;
             float: right;
             background-color: rgba(29, 29, 28, 0.575);
+            backdrop-filter: blur(10px);
+            
         }
 
         .box {
@@ -78,7 +82,7 @@
 
 <body>
     <div>
-        <div class="logo"><img src="logo.jpg" class="logoImageStyle"></div>
+        <div class="logo"><img src="./../img/Dphone_logo.png" class="logoImageStyle"></div>
         <div class="cl1">
             <center>
                 <h2>Log in</h2>
@@ -86,15 +90,15 @@
                 <br>
                 <form class="form" method="post" name="login">
                     <div class="scl1">
-                        <label>UserName</label><br>
-                        <input class="box" type="text" name="username" placeholder="e.g. _utkarsh.t"><br><br>
+                        <label>Username</label><br>
+                        <input class="box" type="text" name="username" placeholder="Type Something"><br><br>
                         <label>Password</label><br>
                         <input class="box" type="password" name="password"><br><br>
                         <input type="checkbox" name="chk">
                         <label><small>Remember me?</small></label><br><br>
                         <input type="submit" id="submit1" name="submit" value="Login">
                         <hr width="80%">
-                        <p align="center"><small>Don't have an account? <a href="" style="color: rgb(228, 215, 99);">Create
+                        <p align="center"><small>Don't have an account? <a href="" style="color: rgb(0, 119, 255);">Create
                         Account</a></small></p>
                     </div>
                 </form>
