@@ -1,0 +1,66 @@
+body {
+    background-image: url("./../img/BackgroundVideo.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo {
+    height: 120px;
+    border: 3px solid oldlace;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 2%;
+}
+
+.logoImageStyle {
+    border-radius: inherit;
+    height: 100%;
+    width: 100%;
+}
+.RegistrationBox{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: honeydew;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 60%;
+    height: auto;
+    font-family: arial;
+    border-radius: 25px;
+
+    padding: 20px 10px 20px 10px;
+    margin-top: 40px;
+    background-color: rgba(29,29,28,0.575);
+    backdrop-filter: blur(10px);
+}
+#l1h2{
+    margin: -8px 0 20px 30px;
+    text-align: left;
+}
+.registration-box-Content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: beige;
+}
+#box{
+    width: 250px;
+    padding: 7px;
+    opacity: 0.7;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #000000;
+    backdrop-filter: blur(10px);
+}
+#submit1{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 12%;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+    padding: 6px;
+    height: 45px;
+    width: 100px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Registration</title>
+    <link rel="stylesheet" href="./../css/UserRegistration.css"/>
+</head>
+<body>
+<br />
+<div class="logo"><img src="./../img/Dphone_logo.png" class="logoImageStyle"></div>
+    <form class="form" action="" method="post">
+    <center>
+        <div class="RegistrationBox">
+            <p align="right" style="float: right; margin-right: 50px;">Already have an account?
+                <a href="LoginPageDphone.html" style="color: rgb(0,119, 255);">Sign In</a></p><br>
+            <h2 id="l1h2">Register Yourself</h2>
+
+            <hr>
+            <table width="80%" align="center" valign="top" cellspacing="5px">
+
+                <tr valign="top">
+                    <td>
+                        <label class="registration-box-Content">Set Username</label><br>
+                        <input type="text" id="box" name="username"  required>
+                        <br>
+
+                        <label class="registration-box-Content">First Name</label><br>
+                        <input type="text" id="box" name="firstname"  required>
+                        <br>
+                        <label class="registration-box-Content">Phone number</label><br>
+                        <input type="number" id="box" name="phone" required>
+                        <br>
+
+                        <label class="registration-box-Content">Address</label><br>
+                        <input type="text" id="box" name="address"  required>
+                        <br>
+
+                    </td>
+                    <td>
+
+                        <label class="registration-box-Content">Set Password</label><br>
+                        <input type="password" id="box" name="password" required minlength="8">
+                        <br>
+                        <label class="registration-box-Content">Last Name</label><br>
+                        <input type="text" id="box" name="lastname">
+                        <br>
+                        <label class="registration-box-Content">Email Id</label><br>
+                        <input type="email" id="box" name="email" required>
+                        <br>
+                        <table style="padding-top: 27px">
+                            <tr>
+                                <td>
+                                    <input type="submit" id="submit1" name="submit" value ="Register">
+                                </td>
+                                <td style="padding-left: 30px">
+                                    <input type="reset" id="submit1" name="reset" value ="Reset">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </center>
+
+</form>
+</body>
+</html>
