@@ -3,13 +3,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .logo {
     height: 150px;
-    /*border: 3px solid oldlace;*/
+    /* border: 3px solid oldlace; */
     width: 300px;
     border-radius: 20px;
     margin-left: 20px;
     margin-top: 2%;
+    backdrop-filter: blur(10px);
+
 }
 
 .logoImageStyle {
@@ -18,55 +21,53 @@ body {
     width: 100%;
 }
 
-.loginbox {
-    font-family: Verdana, Geneva, Tahoma, sans-serif, arial;
+.login-box {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bold;
     font-size: 20px;
-    color: honeydew;
+    color: #ffffff;
     border-radius: 25px;
-    width: 25%;
-    alignment: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 31%;
     height: 85%;
     text-align: center;
     right: 0;
     padding: 2% 2% 2% 1%;
     margin-right: 10%;
-    margin-top: -4%;
+    margin-top: 5%;
     float: right;
-    background-color: rgba(29, 29, 28, 0.575);
+    background-color: rgba(29, 29, 28, 0.56);
     backdrop-filter: blur(10px);
+
 }
 
 .box {
     width: 97%;
     padding: 7px;
-    opacity: 0.9;
+    opacity: 0.5;
     font-size: 18px;
-    border-radius: 10px;
     margin-top: 5px;
     color: #000000;
 }
 
 #submit1 {
-    background-color: #0077ff;
+    background-color: rgb(0, 119, 255);;
     font-size: 16px;
-    font-weight: bold;
-    font-family: Tahoma,serif;
+    font-weight: bolder;
     margin-left: 35%;
     margin-bottom: 10px;
     text-align: center;
-    color: rgb(246, 243, 243);
+    color: rgb(231, 215, 215);
     opacity: 0.8;
     padding: 6px;
-    alignment: center;
-    height: 40px;
-    width: 40%;
+    height: 35px;
+    width: 100px;
     border-radius: 30px;
 }
-.loginboxcontent {
+
+.login-box-details {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     text-align: left;
 }
-.label {
-    font-size: medium;
-}
+
