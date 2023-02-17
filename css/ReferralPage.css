@@ -38,9 +38,23 @@ img {
 /*}*/
 
 .search {
-    position: relative;
-    width: 70%;
+    position: absolute;
+    width: 30%;
     justify-self: center;
+
+}
+
+.store {
+    position: relative;
+    width: 30%;
+    justify-self: left;
+
+}
+
+.logout {
+    position: relative;
+    width: 30%;
+    justify-self: right;
 
 }
 
