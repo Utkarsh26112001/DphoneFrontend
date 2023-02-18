@@ -28,9 +28,14 @@ async function postFormDataAsJson({ url, formData }) {
         throw new Error(errorMessage);
     }
 
-    return response.json();
+    return window.location = "https://www.tutorialspoint.com";
 }
 
+function myFun(){
+    alert("hell");
+    window.location.href = "https://www.tutorialspoint.com";
+    window.location.replace("https://www.tutorialspoint.com");
+}
 async function handleFormSubmit(event) {
     event.preventDefault();
 
