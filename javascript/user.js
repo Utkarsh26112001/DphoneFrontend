@@ -40,13 +40,13 @@ async function handleFormSubmit(event) {
     try {
         const formData = new FormData(form);
         const responseData = await postFormDataAsJson({ url, formData });
-        window.location = "https://www.tutorialspoint.com";
-
         console.log({ responseData });
+        if (responseData.success) {
+            window.location.replace("https://www.google.com");
+        }
     } catch (error) {
         console.error(error);
     }
 }
 
 registerForm.addEventListener("submit", handleFormSubmit);
-window.location = "https://www.tutorialspoint.com";
