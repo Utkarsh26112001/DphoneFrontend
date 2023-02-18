@@ -5,8 +5,6 @@
     <title>Login</title>
     <link rel="stylesheet" href="./../css/LoginPage.css"/>
     <link rel="stylesheet" href="./../css/bootstrap.min.css"/>
-    <link rel="script" href="./../javascript/login.js"/>
-
 </head>
 <body>
 <!-- Navigation -->
@@ -36,12 +34,12 @@
             <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif ; font-weight: bold;">Log In</h2>
             <hr width="90%" color="white">
             <br>
-            <form class="form" method="post" name="login">
+            <form class="form" action="http://localhost:9191/api/v1/auth/user/authenticate" method="post" name="login">
                 <div class="login-box-details">
                     <label>Username</label><br>
-                    <input class="box" type="text" id="username" name="username" placeholder="Enter your username"><br><br>
+                    <input class="box" type="text" name="username" placeholder="Enter your username"><br><br>
                     <label>Password</label><br>
-                    <input class="box" type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+                    <input class="box" type="password" name="password" placeholder="Enter your password"><br><br>
                     <input type="checkbox" name="chk">
                     <label><small>Remember me?</small></label><br><br>
                     <input type="submit" id="submit1" name="submit" value="Login">
