@@ -7,7 +7,7 @@
  * @return {Object} - Response body from URL that was POSTed to
  */
 const registerForm = document.getElementById("register");
-
+alert("hello");
 async function postFormDataAsJson({ url, formData }) {
     const plainFormData = Object.fromEntries(formData.entries());
     const formDataJsonString = JSON.stringify(plainFormData);
@@ -54,4 +54,4 @@ async function handleFormSubmit(event) {
     }
 }
 
-registerForm.addEventListener("submit", handleFormSubmit);
+// registerForm.addEventListener("submit", handleFormSubmit);

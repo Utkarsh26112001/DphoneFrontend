@@ -1,4 +1,4 @@
-
+alert("hello")
 const usernameInput = document.getElementById('username');
 const passwordInput = document.getElementById('password');
 const loginForm = document.getElementById('login-form');
@@ -47,6 +47,12 @@ async function handleFormSubmit(event) {
     } catch (error) {
         console.error(error);
     }
+}
+
+
+function myProfile(){
+    window.location.href = "http://localhost:63342/DphoneFrontend/html/Dashboard.html";
+    window.location.replace("http://localhost:63342/DphoneFrontend/html/Dashboard.html");
 }
 
 // const exampleForm = document.getElementById("example-form");
