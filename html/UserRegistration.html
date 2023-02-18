@@ -5,6 +5,7 @@
     <title>Registration</title>
     <link rel="stylesheet" href="./../css/UserRegistration.css"/>
     <link rel="stylesheet" href="./../css/bootstrap.min.css"/>
+    <script src="./../javascript/user.js"></script>
 </head>
 <body>
 <br />
@@ -40,39 +41,39 @@
                 <tr valign="top">
                     <td>
                         <label class="registration-box-Content">Set Username</label><br>
-                        <input type="text" id="box" name="username"  required>
+                        <input type="text" class="box" id="username" name="username"  required>
                         <br>
 
                         <label class="registration-box-Content">First Name</label><br>
-                        <input type="text" id="box" name="firstname"  required>
+                        <input type="text" class="box" id="firstname" name="firstname"  required>
                         <br>
                         <label class="registration-box-Content">Phone number</label><br>
-                        <input type="number" id="box" name="phone" required>
+                        <input type="number" class="box" id="mobile" name="phone" required>
                         <br>
 
                         <label class="registration-box-Content">Address</label><br>
-                        <input type="text" id="box" name="address"  required>
+                        <input type="text" class="box" id="address" name="address"  required>
                         <br>
 
                     </td>
                     <td>
 
                         <label class="registration-box-Content">Set Password</label><br>
-                        <input type="password" id="box" name="password" required minlength="8">
+                        <input type="password" class="box" id="password" name="password" required minlength="8">
                         <br>
                         <label class="registration-box-Content">Last Name</label><br>
-                        <input type="text" id="box" name="lastname">
+                        <input type="text" class="box" id="lastname" name="lastname">
                         <br>
                         <label class="registration-box-Content">Email Id</label><br>
-                        <input type="email" id="box" name="email" required>
+                        <input type="email" class="box" id="email" name="email" required>
                         <br>
                         <table style="padding-top: 27px">
                             <tr>
                                 <td>
-                                    <input type="submit" id="submit1" name="submit" value ="Register">
+                                    <input type="submit" class="submit1" id="submit" name="submit" value ="Register">
                                 </td>
                                 <td style="padding-left: 30px">
-                                    <input type="reset" id="submit1" name="reset" value ="Reset">
+                                    <input type="reset" class="submit1" id="reset" name="reset" value ="Reset">
                                 </td>
                             </tr>
                         </table>
